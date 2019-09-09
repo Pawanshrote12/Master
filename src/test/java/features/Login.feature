@@ -10,7 +10,7 @@ Feature: Application Login
     
     Scenario: To verify the verifyrecruitmentpage
     Given Navigate to url
-    When User login into application with username "Admin" and password "admin123"
+    And User login into application with username "Admin" and password "admin123"
     Then Click on recruitment button
     And Click on Vaccancy
     

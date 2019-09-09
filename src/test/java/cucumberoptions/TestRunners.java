@@ -6,7 +6,7 @@ import org.testng.annotations.Listeners;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-@Listeners(cucumberoptions.ListnersTest.class)
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/java/features",
