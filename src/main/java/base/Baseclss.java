@@ -32,7 +32,7 @@ public class Baseclss {
 	
 		public WebDriver initialiseBrowser(String browserName) throws IOException {
 			if(browserName.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "D:\\Seleniumdrivers\\chromedriver_win64\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "D:\\Seleniumdrivers\\Chromedriverlatest\\chromedriver_win32\\chromedriver.exe");
 				 driver=new ChromeDriver();
 			}
 			else if(browserName.equalsIgnoreCase("firefox")) {

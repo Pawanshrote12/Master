@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="launchbrowser"/>
+        <include name="bonding"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.Testcaselogin2">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyleaveconfigureholidays"/>
+        </methods>
+      </class> <!-- testcases.Testcaselogin2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

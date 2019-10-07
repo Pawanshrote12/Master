@@ -11,7 +11,6 @@ public class Recruitmentpage {
 	By Recruitmentbuttonbutton = By.id("menu_recruitment_viewRecruitmentModule");
 	By Vaccancies = By.id("menu_recruitment_viewJobVacancy");
 	By systemuser = By.xpath("//a[@class='toggle tiptip']");
-	
 	public Recruitmentpage(WebDriver driver)
 	{
 		this.driver=driver;

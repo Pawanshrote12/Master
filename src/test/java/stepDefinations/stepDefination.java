@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 
+import base.Adminpage;
 import base.Baseclss;
 import base.Leavepage;
 import base.Loginpage;
@@ -19,6 +20,7 @@ public class stepDefination extends Baseclss{
 	Loginpage lp;
 	Leavepage lph;
 	Recruitmentpage recu;
+	Adminpage ad;
 
 	  @Given("^Navigate to url$")
 	    public void navigate_to_url() throws Throwable {
@@ -83,4 +85,45 @@ public class stepDefination extends Baseclss{
 	    }
 // adding some changes
 
-}
+	   
+	  
+
+	   
+
+	    @When("^User click on workshifts$")
+	    public void user_click_on_workshifts() throws Throwable {
+	    
+	    	ad.Workshifts().click();
+	    
+	   
+	      
+	    }
+
+	    @Then("^Hover on Admin button$")
+	    public void hover_on_admin_button() throws Throwable {
+	    	ad = new Adminpage(driver);
+	        ad.Admin();
+	    }
+
+	    @Then("^Work shift will be displayed$")
+	    public void work_shift_will_be_displayed() throws Throwable {
+	    	
+	    	Assert.assertTrue(ad.Workshift_title().isDisplayed());
+	    	
+	    }
+
+	    @And("^Hover on job$")
+	    public void hover_on_job() throws Throwable {
+	        ad.Job();
+	    }
+
+	    @Then("^Close the browser$")
+	    public void close_the_browser() throws Throwable {
+	     driver.close();
+	    }
+	    
+	    
+	}
+	    
+	    
+

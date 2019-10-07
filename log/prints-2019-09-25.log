@@ -1,0 +1,7 @@
+14:44:46.873 [main] INFO  testcases.Testcaselogin - url launched
+14:44:47.368 [main] INFO  testcases.Testcaselogin - username entered
+14:45:11.149 [main] ERROR testcases.Testcaselogin - webpage not displayed successfully
+14:45:16.328 [main] INFO  testcases.Testcaselogin - initilizing browser
+14:45:18.936 [main] INFO  testcases.Testcaselogin - url launched
+14:45:19.064 [main] INFO  testcases.Testcaselogin - username entered
+14:45:22.766 [main] INFO  testcases.Testcaselogin - clicking pawan

@@ -1,0 +1,7 @@
+18:15:27.491 [main] INFO  testcases.Testcaselogin - initilizing browser
+18:15:31.106 [main] INFO  testcases.Testcaselogin - url launched
+18:15:31.313 [main] INFO  testcases.Testcaselogin - username entered
+18:15:54.957 [main] ERROR testcases.Testcaselogin - webpage not displayed successfully
+18:15:58.682 [main] INFO  testcases.Testcaselogin - initilizing browser
+18:16:01.605 [main] INFO  testcases.Testcaselogin - url launched
+18:16:01.763 [main] INFO  testcases.Testcaselogin - username entered
